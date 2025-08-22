@@ -51,8 +51,8 @@ Directory | Description
 
 ## How to run examples
 
-To install the library, run the following command: `pip install groupdocs-redaction-net`. To upgrade to the latest version: `pip install --upgrade groupdocs-redaction-net` to get the latest version.
-To start examples call `python .\Examples\run_examples.py`. See results in `.\Examples\Output` folder.
+To install the library, run the following command: `pip install groupdocs-redaction-net`. To upgrade to the latest version: `pip install --upgrade groupdocs-redaction-net`.
+Run the examples: `python .\Examples\run_examples.py`. Redacted files are saved in the `.\Examples\Output` folder.
 
 ## Example: Case-Sensitive Phrase Redaction in DOCX
 
