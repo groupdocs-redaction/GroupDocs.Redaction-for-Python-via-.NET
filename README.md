@@ -28,21 +28,6 @@ Directory | Description
 **Metadata:** Clear or replace metadata values.\
 **Annotation:** Remove or redact annotations.
 
-## Redaction Support for Documents & Metadata
-
-**Fixed Layout:** PDF\
-**Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, RTF\
-**Microsoft Excel:** XLSX, XLSM, XLTX, XLTM, XLS, XLT, CSV\
-**Microsoft PowerPoint:** PPT, PPTX, PPSX, POT, PPS, PPTM, PPSM, POTM\
-**Image:** JPEG, TIF, TIFF, PNG, BMP, GIF
-
-## Redaction Support for Annotations & Comments
-
-**Fixed Layout:** PDF\
-**Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, RTF\
-**Microsoft Excel:** XLSX, XLSM, XLTX, XLTM, XLS, XLT, CSV\
-**Microsoft PowerPoint:** PPT, PPTX, PPSX, POT, PPS, PPTM, PPSM, POTM
-
 ## Develop & Deploy Anywhere
 
 **Operation Systems:** Windows, Linux, Mac OS\
@@ -82,3 +67,4 @@ Run the examples: `python .\Examples\run_examples.py`. Redacted files are saved 
         result = redactor.apply(a_red)
 ```
 
+[Home](https://www.groupdocs.com/) | [Product Page](https://products.groupdocs.com/redaction/python-net/) | [Documentation](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://apireference.groupdocs.com/python-net/redaction/) | [Examples](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
