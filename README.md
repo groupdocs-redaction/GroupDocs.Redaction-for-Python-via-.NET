@@ -47,7 +47,7 @@
 3. **Navigate to the `Examples` Folder**
 
    ```bash
-   cd ./GroupDocs.Conversion-for-Python-via-.NET/Examples
+   cd ./GroupDocs.Redaction-for-Python-via-.NET/Examples
    ```
 
 4. **Install Package**: To install the package, run `pip install groupdocs-redaction-net`. If you need to use a different package version, you can update the requirements.txt file accordingly.
