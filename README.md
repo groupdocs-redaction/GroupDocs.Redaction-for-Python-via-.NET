@@ -48,7 +48,7 @@
 3. **Navigate to the `Examples` Folder**
 
    ```bash
-   cd ./GroupDocs.Redaction-for-Python-via-.NET/Examples
+   cd GroupDocs.Redaction-for-Python-via-.NET\Examples
    ```
 
 4. **Install Package**: To install the package, run `pip install groupdocs-redaction-net`. If you need to use a different package version, you can update the requirements.txt file accordingly.
@@ -56,7 +56,7 @@
    Alternatively, you can download the `whl` file for your operating system from the official [GroupDocs Releases](https://releases.groupdocs.com/redaction/python-net/#direct-download) website. To install the package manually, copy the whl file to the `Examples` directory and run the following command:
    
    ```bash
-   pip install ./groupdocs_redaction_net-*.whl
+   pip install groupdocs_redaction_net-*.whl
    ```
 
 5. **Configure License (Optional)**: If you have a license file, you can set the license path in the `utils.py` file. By default, GroupDocs.Conversion for Python via .NET checks for the `GROUPDOCS_REDACTION_PYTHON_LIC` environment variable. You can also [get a temporary license](https://purchase.groupdocs.com/temporary-license) to test all the features.
@@ -64,12 +64,12 @@
 6. **Run the Examples**: To run all the examples, execute the following command:
 
    ```bash
-   python ./run_examples.py
+   python run_examples.py
    ```
 
    You can also run individual examples by navigating to the folder containing the example script and running it. Output files are placed in the same folder as the script files.
 
-7. **Check results**: Redacted files are saved in the `.\Examples\Output` folder.
+7. **Check results**: Redacted files are saved in the `Examples\Output` folder.
 
 
 ## Example: Case-Sensitive Phrase Redaction in DOCX
