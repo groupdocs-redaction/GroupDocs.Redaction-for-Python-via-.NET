@@ -2,6 +2,7 @@
 
 # GroupDocs.Redaction-for-Python-via-.NET
 
+[![banner](https://raw.githubusercontent.com/groupdocs/groupdocs.github.io/master/img/banners/groupdocs-redaction-common-banner.png)](https://releases.groupdocs.com/conversion/python-net/)
 
 [GroupDocs.Redaction for Python via .NET](https://products.groupdocs.com/redaction/python-net) is a powerful tool for protecting sensitive information in business files across many formats. It lets you redact text, images, metadata, annotations, and other hidden data to keep your documents secure. 
 
