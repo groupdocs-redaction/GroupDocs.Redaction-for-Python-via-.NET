@@ -1,4 +1,4 @@
-[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Free Web Demo](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
 # GroupDocs.Redaction-for-Python-via-.NET
 
@@ -100,4 +100,4 @@
         result = redactor.apply(a_red)
 ```
 
-[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Free Web Demo](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
