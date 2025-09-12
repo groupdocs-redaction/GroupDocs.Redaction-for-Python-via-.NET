@@ -1,16 +1,16 @@
+[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+
 # GroupDocs.Redaction-for-Python-via-.NET
+
 
 [GroupDocs.Redaction for Python via .NET](https://products.groupdocs.com/redaction/python-net) is a powerful tool for protecting sensitive information in business files across many formats. It lets you redact text, images, metadata, annotations, and other hidden data to keep your documents secure. 
 
+<br>
 <p align="center">
   <a title="Download complete GroupDocs.Redaction for Python via .NET source code" href="https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
-
-Directory | Description
---------- | -----------
-[Examples](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/tree/master/Examples)  | This folder includes all Python examples and sample files to help you quickly learn and work with the API features. 
 
 ## Document Redaction Features
 
@@ -34,10 +34,42 @@ Directory | Description
 **Supported IDE:** IDLE, PyCharm, Visual Studio Code\
 **Environment:** Python 3.9+ and .Net 6+
 
-## How to run examples
+## Get Started
 
-To install the library, run the following command: `pip install groupdocs-redaction-net`. To upgrade to the latest version: `pip install --upgrade groupdocs-redaction-net`.
-Run the examples: `python .\Examples\run_examples.py`. Redacted files are saved in the `.\Examples\Output` folder.
+1. **Set Up Environment**: Ensure that [Python 3.9](https://www.python.org/downloads/) and the [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) runtime (or higher) are installed on your system.
+
+2. **Get the Code**: Clone or download this repository.
+
+   ```bash
+   git clone git@github.com:groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET.git
+   ```
+
+3. **Navigate to the `Examples` Folder**
+
+   ```bash
+   cd ./GroupDocs.Conversion-for-Python-via-.NET/Examples
+   ```
+
+4. **Install Package**: To install the package, run `pip install groupdocs-redaction-net`. If you need to use a different package version, you can update the requirements.txt file accordingly.
+
+   Alternatively, you can download the `whl` file for your operating system from the official [GroupDocs Releases](https://releases.groupdocs.com/redaction/python-net/#direct-download) website. To install the package manually, copy the whl file to the `Examples` directory and run the following command:
+   
+   ```bash
+   pip install ./groupdocs_redaction_net-*.whl
+   ```
+
+5. **Configure License (Optional)**: If you have a license file, you can set the license path in the `utils.py` file. By default, GroupDocs.Conversion for Python via .NET checks for the `GROUPDOCS_REDACTION_PYTHON_LIC` environment variable. You can also [get a temporary license](https://purchase.groupdocs.com/temporary-license) to test all the features.
+
+6. **Run the Examples**: To run all the examples, execute the following command:
+
+   ```bash
+   python ./run_examples.py
+   ```
+
+   You can also run individual examples by navigating to the folder containing the example script and running it. Output files are placed in the same folder as the script files.
+
+7. **Check results**: Redacted files are saved in the `.\Examples\Output` folder.
+
 
 ## Example: Case-Sensitive Phrase Redaction in DOCX
 
@@ -67,4 +99,4 @@ Run the examples: `python .\Examples\run_examples.py`. Redacted files are saved 
         result = redactor.apply(a_red)
 ```
 
-[Home](https://products.groupdocs.com/) | [Product Page](https://products.groupdocs.com/redaction/python-net/) | [Documentation](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Examples](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
