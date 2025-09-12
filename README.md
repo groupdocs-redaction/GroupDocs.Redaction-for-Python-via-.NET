@@ -42,7 +42,7 @@
 2. **Get the Code**: Clone or download this repository.
 
    ```bash
-   git clone git@github.com:groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET.git
+    git clone https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET.git
    ```
 
 3. **Navigate to the `Examples` Folder**
