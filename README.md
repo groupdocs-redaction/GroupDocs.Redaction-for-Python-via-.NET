@@ -64,7 +64,7 @@
 6. **Run the Examples**: To run all the examples, execute the following command:
 
    ```bash
-   python run_examples.py
+   python Examples\run_examples.py
    ```
 
    You can also run individual examples by navigating to the folder containing the example script and running it. Output files are placed in the same folder as the script files.
