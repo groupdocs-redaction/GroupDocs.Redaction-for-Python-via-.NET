@@ -1,8 +1,8 @@
 # GroupDocs.Redaction for Python via .NET - Code Examples
 
-[![banner](https://raw.githubusercontent.com/groupdocs/groupdocs.github.io/master/img/banners/groupdocs-redaction-common-banner.png)](https://releases.groupdocs.com/redaction/python-net/)
+[![banner](https://raw.githubusercontent.com/groupdocs/groupdocs.github.io/master/img/banners/groupdocs-redaction-python-net-banner.png)](https://releases.groupdocs.com/redaction/python-net/)
 
-[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
 
 [GroupDocs.Redaction for Python via .NET](https://products.groupdocs.com/redaction/python-net/) permanently removes sensitive content from documents: redact text by exact phrase or regular expression, scrub or rewrite metadata, cover image areas, remove annotations and pages, and optionally save a rasterized PDF so the underlying data can never be recovered — all on-premise, with no MS Office or OpenOffice installation required.
 
@@ -27,7 +27,7 @@ GroupDocs.Redaction for Python via .NET supports a wide range of file formats, i
 2. **Get the Code**: Clone or download this repository.
 
    ```bash
-   git clone https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET.git
+   git clone git@github.com:groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET.git
    ```
 
 3. **Navigate to the `Examples` Folder**
@@ -104,4 +104,4 @@ We also offer **GroupDocs.Redaction** packages for other platforms:
 
 ---
 
-[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
