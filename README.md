@@ -1,103 +1,107 @@
-[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Free Web Demo](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+# GroupDocs.Redaction for Python via .NET - Code Examples
 
-# GroupDocs.Redaction for Python via .NET
+[![banner](https://raw.githubusercontent.com/groupdocs/groupdocs.github.io/master/img/banners/groupdocs-redaction-common-banner.png)](https://releases.groupdocs.com/redaction/python-net/)
 
-[![banner](https://raw.githubusercontent.com/groupdocs/groupdocs.github.io/master/img/banners/groupdocs-redaction-common-banner.png)](https://releases.groupdocs.com/conversion/python-net/)
+[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
 
-[GroupDocs.Redaction for Python via .NET](https://products.groupdocs.com/redaction/python-net) is a powerful tool for protecting sensitive information in business files across many formats. It lets you redact text, images, metadata, annotations, and other hidden data to keep your documents secure. 
+[GroupDocs.Redaction for Python via .NET](https://products.groupdocs.com/redaction/python-net/) permanently removes sensitive content from documents: redact text by exact phrase or regular expression, scrub or rewrite metadata, cover image areas, remove annotations and pages, and optionally save a rasterized PDF so the underlying data can never be recovered — all on-premise, with no MS Office or OpenOffice installation required.
 
-<br>
-<p align="center">
-  <a title="Download complete GroupDocs.Redaction for Python via .NET source code" href="https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET/archive/master.zip">
-	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
-  </a>
-</p>
+## Features
 
-## Document Redaction Features
+- **Text Redaction**: Replace or hide text matched by an exact phrase or a regular expression, with a colored overlay or replacement string.
+- **Metadata Redaction**: Erase or rewrite document metadata, either wholesale or filtered by property.
+- **Image Redaction**: Cover selected areas of an image with a solid color and clean embedded image metadata.
+- **Annotation & Page Redaction**: Remove or redact annotations, and delete pages or page ranges.
+- **Rasterized Output**: Optionally flatten the redacted document to a rasterized PDF (with adjustable PDF/A compliance) so redacted content cannot be recovered.
+- **Redaction Policies**: Describe a reusable set of redactions as a policy and apply it across many documents.
+- **On-Premise**: No MS Office or OpenOffice installation required.
 
-- Remove sensitive or confidential information from [30+ different file formats](https://docs.groupdocs.com/redaction/python-net/supported-document-formats).
-- Remove document metadata, comments and annotations.
-- Make a rasterized PDF version of the redacted document for better security.
-- Keep the document in its original format after the redaction process.
-- Set the redaction scope to a specific worksheet or column.
-- Modify compliance level from PDF/A-1b to PDF/A-1a during rasterizing PDF.
+## Supported File Formats
 
-## Supported Redaction Types
-
-**Text:** Hide or replace text in a document body with a colored overlay.\
-**Image:** Cover selected areas of an image with a solid color.\
-**Metadata:** Clear or replace metadata values.\
-**Annotation:** Remove or redact annotations.
-
-## Develop & Deploy Anywhere
-
-**Operation Systems:** Windows, Linux, Mac OS\
-**Supported IDE:** IDLE, PyCharm, Visual Studio Code\
-**Environment:** Python 3.9+ and .Net 6+
+GroupDocs.Redaction for Python via .NET supports a wide range of file formats, including Word, Excel, PowerPoint, PDF, OpenDocument, and image formats. See the [full list of supported formats](https://docs.groupdocs.com/redaction/python-net/supported-document-formats/) for details.
 
 ## Get Started
 
-1. **Set Up Environment**: Ensure that [Python 3.9](https://www.python.org/downloads/) and the [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) runtime (or higher) are installed on your system.
+1. **Set Up Environment**: Ensure that [Python 3.5+](https://www.python.org/downloads/) is installed on your system.
 
 2. **Get the Code**: Clone or download this repository.
 
    ```bash
-    git clone https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET.git
+   git clone https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-Python-via-.NET.git
    ```
 
 3. **Navigate to the `Examples` Folder**
 
    ```bash
-   cd GroupDocs.Redaction-for-Python-via-.NET\Examples
+   cd ./GroupDocs.Redaction-for-Python-via-.NET/Examples
    ```
 
-4. **Install Package**: To install the package, run `pip install groupdocs-redaction-net`. If you need to use a different package version, you can update the requirements.txt file accordingly.
+4. **Install Package**: install dependencies with pip:
 
-   Alternatively, you can download the `whl` file for your operating system from the official [GroupDocs Releases](https://releases.groupdocs.com/redaction/python-net/#direct-download) website. To install the package manually, copy the whl file to the `Examples` directory and run the following command:
-   
    ```bash
-   pip install groupdocs_redaction_net-*.whl
+   pip install -r requirements.txt
    ```
 
-5. **Configure License (Optional)**: If you have a license file, you can set the license path in the `utils.py` file. By default, GroupDocs.Conversion for Python via .NET checks for the `GROUPDOCS_REDACTION_PYTHON_LIC` environment variable. You can also [get a temporary license](https://purchase.groupdocs.com/temporary-license) to test all the features.
+   Alternatively, download the platform-specific `.whl` file from the [GroupDocs Releases](https://releases.groupdocs.com/redaction/python-net/) website and install it directly (adjust the filename to your platform — `win_amd64`, `manylinux*_x86_64`, `macosx_*_arm64`, `macosx_*_x86_64`):
+
+   ```bash
+   pip install ./groupdocs_redaction_net-26.6.0-py3-none-win_amd64.whl
+   ```
+
+5. **Configure License (Optional)**: `run_all_examples.py` automatically applies a license when one is available, looking in two places:
+
+   - The `GROUPDOCS_LIC_PATH` environment variable — set it to the absolute path of your `.lic` file (recommended).
+   - Any `*.lic` file in the repository root.
+
+   With a license applied, examples run with the full feature set; without one, the library runs in evaluation mode (the trial build limits how many documents a single process may open and marks the output). Get a free 30-day [temporary license](https://purchase.groupdocs.com/temporary-license) for evaluation.
 
 6. **Run the Examples**: To run all the examples, execute the following command:
 
    ```bash
-   python Examples\run_examples.py
+   python ./run_all_examples.py
    ```
 
-   You can also run individual examples by navigating to the folder containing the example script and running it. Output files are placed in the same folder as the script files.
+   You can also run individual examples by navigating to the folder containing the example script and running it. Output files are placed in the same folder as the script file.
 
-7. **Check results**: Redacted files are saved in the `Examples\Output` folder.
+## Run with Docker
 
+The repository ships a `Dockerfile` that builds a Linux image with Python 3.13, the .NET runtime dependencies (`libicu-dev`, `libgdiplus`, `libfontconfig1`), and the `groupdocs-redaction-net` package preinstalled.
 
-## Example: Case-Sensitive Phrase Redaction in DOCX
+```bash
+# Build the image
+docker build -t redaction-examples .
 
-```python
-    # Specify the redaction options
-    case_sensitive = True
-    repl_opt = grr.ReplacementOptions("[personal]")
-    ex_red = grr.ExactPhraseRedaction("John Doe", case_sensitive, repl_opt)
+# Run unlicensed (evaluation mode)
+docker run --rm redaction-examples
 
-    # Load the document to be redacted
-    with gr.Redactor(source_file) as redactor:
-
-        # Apply the redaction
-        result = redactor.apply(ex_red)
+# Run with a license mounted from the host
+docker run --rm \
+    -v /path/to/license:/lic:ro \
+    -e GROUPDOCS_LIC_PATH=/lic/your-license.lic \
+    redaction-examples
 ```
 
-## Example: Redact Strings in PDF Annotations
+On Windows with Git Bash, set `export MSYS_NO_PATHCONV=1` before `docker run` to prevent MSYS from rewriting the mounted license path.
 
-```python
-    # Specify the redaction options
-    a_red = grr.AnnotationRedaction("(?im:john)", "[redacted]")
+## AI agents and LLM integration
 
-    # Load the document to be redacted
-    with gr.Redactor(source_file) as redactor:
+The `groupdocs-redaction-net` wheel ships a bundled `AGENTS.md` reference for AI coding assistants (Claude Code, Cursor, GitHub Copilot in agent mode, and similar). Once the package is installed, the reference is discovered automatically at `groupdocs/redaction/AGENTS.md` — it covers canonical imports, quick-start usage, licensing, the API surface table, and troubleshooting.
 
-        # Apply the redaction
-        result = redactor.apply(a_red)
-```
+For on-demand documentation lookups, combine the bundled `AGENTS.md` with the GroupDocs MCP server at `https://docs.groupdocs.com/mcp`. See the [AI agents and LLM integration](https://docs.groupdocs.com/redaction/python-net/agents-and-llm-integration/) page for the per-tool setup snippets.
 
-[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Free Web Demo](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)
+## Continuous integration
+
+The `.github/workflows/` directory contains the CI matrix that runs the full example suite on every push. The matrix is reproducible locally via the `Dockerfile` above.
+
+## More Resources
+
+Find additional details and examples in the [GroupDocs.Redaction for Python via .NET documentation](https://docs.groupdocs.com/redaction/python-net/).
+
+We also offer **GroupDocs.Redaction** packages for other platforms:
+* [**GroupDocs.Redaction for .NET**](https://products.groupdocs.com/redaction/net/)
+* [**GroupDocs.Redaction for Java**](https://products.groupdocs.com/redaction/java/)
+* [**GroupDocs.Redaction for Node.js via Java**](https://products.groupdocs.com/redaction/nodejs-java/)
+
+---
+
+[Product Page](https://products.groupdocs.com/redaction/python-net/) | [Docs](https://docs.groupdocs.com/redaction/python-net/) | [Demos](https://products.groupdocs.app/redaction/family) | [API Reference](https://reference.groupdocs.com/redaction/python-net/) | [Blog](https://blog.groupdocs.com/category/redaction/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/redaction/) | [Temporary License](https://purchase.groupdocs.com/temporary-license/)

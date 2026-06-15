@@ -174,3 +174,12 @@ cython_debug/
 .pypirc
 /.vs
 /Examples/Output
+
+# Example outputs (generated when running the examples; inputs stay tracked)
+Examples/**/*_redacted.*
+Examples/**/redacted-*
+Examples/**/sample_policy.xml
+Examples/**/*_2[0-9][0-9][0-9]-*
+Examples/**/save-in-rasterized-pdf/sample.pdf
+Examples/**/use-advanced-rasterization-options/sample.pdf
+Examples/**/select-specific-pages-for-rasterized-pdf/multipage_sample.pdf
